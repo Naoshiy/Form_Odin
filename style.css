@@ -19,6 +19,10 @@ p{
 
 .content{
     display: flex;
+    
+}
+.org{
+    width: 1200px;
 }
 
 .header{
@@ -101,4 +105,39 @@ p{
     width: max-content;
 }
 
+button {
+  margin-left: 2rem;
+  padding: 0.75rem;
+  width: 150px;
+  background-color: #4f6538;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c4f2b;
+}
+
+.login-msg {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.login-msg a {
+  color: #4f6538; /* verde escuro */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.25rem;
+}
+
+.org p a:hover {
+  text-decoration: underline;
+}
 
